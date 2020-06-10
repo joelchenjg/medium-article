@@ -1,0 +1,166 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+@media (min-width: 961px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 900px;
+  }
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+/* categories */
+
+body {
+    background: #F7F9FC;
+    color: #575F7D;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    /* font-weight: lighter; */
+}
+
+body {
+    display: block;
+    margin: 0px;
+}
+
+h1 {
+    color: #rgba(50, 50, 50, 0.8);
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: #rgba(50, 50, 50, 0.8);
+    font-size: 24px;
+    font-weight: lighter;
+    font-weight: 600;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    color: #rgba(50, 50, 50, 0.8);
+    font-size: 20px;
+    font-weight: lighter;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #636363;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #F7F9FC;
+}
+
+/* sections */
+
+.container {  
+    margin: 0 auto; /* This automatically sets left/right margins */
+  }
+  
+/* card */
+
+/* .text-center {
+    text-align: center;
+  } */
+
+.card {
+    margin: 15px 0px;
+    padding: 25px;
+    border-radius: 4px;
+  }
+.card-white {
+    background: white;
+    border: 1px solid lightgrey;
+    box-shadow: 1px 1px 3px rgba(160, 160, 160, 0.1);
+  } 
+
+  /* custom design */
+
+  #banner {
+      background-image: url("https://source.unsplash.com/random");
+      padding: 150px 0;
+      text-align: center;
+      background-size: cover ;
+      color: white;
+  }
+
+  #banner h1 {
+      color: #F7F9FC;
+      font-size: 38px;
+  }
+  #banner p {
+    color: #F7F9FC;
+    opacity: 0.8;
+    font-size: 28px;
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgb(133, 255, 176, 1), rgba(133, 255, 176, 1));
+  text-decoration: none;
+}
+
+ /* footer */
+
+.footer {
+  background: black;
+  color: white;
+  padding: 15px 0;
+}
+
+/* .footer h2 {
+  text-align: center;
+} */
+
+.text-center {
+  text-align: center;
+}
+
+ .list-inline > li {
+  display: inline-block;
+  padding: 0px 40px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.fab {
+font-size: x-large;
+}
